@@ -1,0 +1,12 @@
+c:\users\jim\source\repos\Lab1\Lab1\bin\Debug\Lab1.exe.config
+c:\users\jim\source\repos\Lab1\Lab1\bin\Debug\Lab1.exe
+c:\users\jim\source\repos\Lab1\Lab1\bin\Debug\Lab1.pdb
+c:\users\jim\source\repos\Lab1\Lab1\bin\Debug\Lab1.xml
+c:\users\jim\source\repos\Lab1\Lab1\obj\Debug\Lab1.vbprojAssemblyReference.cache
+c:\users\jim\source\repos\Lab1\Lab1\obj\Debug\Lab1.GreetingsForm.resources
+c:\users\jim\source\repos\Lab1\Lab1\obj\Debug\Lab1.Resources.resources
+c:\users\jim\source\repos\Lab1\Lab1\obj\Debug\Lab1.vbproj.GenerateResource.cache
+c:\users\jim\source\repos\Lab1\Lab1\obj\Debug\Lab1.vbproj.CoreCompileInputs.cache
+c:\users\jim\source\repos\Lab1\Lab1\obj\Debug\Lab1.exe
+c:\users\jim\source\repos\Lab1\Lab1\obj\Debug\Lab1.xml
+c:\users\jim\source\repos\Lab1\Lab1\obj\Debug\Lab1.pdb

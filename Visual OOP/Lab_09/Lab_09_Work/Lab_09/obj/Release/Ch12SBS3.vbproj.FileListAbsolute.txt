@@ -1,0 +1,13 @@
+C:\Documents and Settings\Judy\My Documents\VB2008\In Chapter Programs\Chap12\Ch12SBS3\bin\Release\Ch12SBS3.exe
+C:\Documents and Settings\Judy\My Documents\VB2008\In Chapter Programs\Chap12\Ch12SBS3\bin\Release\Ch12SBS3.pdb
+C:\Documents and Settings\Judy\My Documents\VB2008\In Chapter Programs\Chap12\Ch12SBS3\bin\Release\Ch12SBS3.xml
+C:\Documents and Settings\Judy\My Documents\VB2008\In Chapter Programs\Chap12\Ch12SBS3\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Judy\My Documents\VB2008\In Chapter Programs\Chap12\Ch12SBS3\obj\Release\Ch12SBS3.SalesForm.resources
+C:\Documents and Settings\Judy\My Documents\VB2008\In Chapter Programs\Chap12\Ch12SBS3\obj\Release\Ch12SBS3.Resources.resources
+C:\Documents and Settings\Judy\My Documents\VB2008\In Chapter Programs\Chap12\Ch12SBS3\obj\Release\Ch12SBS3.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Judy\My Documents\VB2008\In Chapter Programs\Chap12\Ch12SBS3\obj\Release\Ch12SBS3.exe
+C:\Documents and Settings\Judy\My Documents\VB2008\In Chapter Programs\Chap12\Ch12SBS3\obj\Release\Ch12SBS3.xml
+C:\Documents and Settings\Judy\My Documents\VB2008\In Chapter Programs\Chap12\Ch12SBS3\obj\Release\Ch12SBS3.pdb
+C:\Users\Anita\Documents\VB2010\Ch12\Ch12SBS3\obj\Release\Ch12SBS3.exe
+C:\Users\Anita\Documents\VB2010\Ch12\Ch12SBS3\obj\Release\Ch12SBS3.xml
+C:\Users\Anita\Documents\VB2010\Ch12\Ch12SBS3\obj\Release\Ch12SBS3.pdb

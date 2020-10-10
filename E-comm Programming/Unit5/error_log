@@ -1,0 +1,20 @@
+[17-Feb-2019 16:17:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function create_form_field() in /home/97/jrgalioto/public_html/CSIS3760/Unit5/includes/registration.inc.php:5
+Stack trace:
+#0 /home/97/jrgalioto/public_html/CSIS3760/Unit5/registration.php(11): require()
+#1 /home/97/jrgalioto/public_html/CSIS3760/Unit5/display_php_errors.php(4): include('/home/97/jrgali...')
+#2 {main}
+  thrown in /home/97/jrgalioto/public_html/CSIS3760/Unit5/includes/registration.inc.php on line 5
+[17-Feb-2019 16:17:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function create_form_field() in /home/97/jrgalioto/public_html/CSIS3760/Unit5/includes/registration.inc.php:5
+Stack trace:
+#0 /home/97/jrgalioto/public_html/CSIS3760/Unit5/registration.php(11): require()
+#1 /home/97/jrgalioto/public_html/CSIS3760/Unit5/display_php_errors.php(4): include('/home/97/jrgali...')
+#2 {main}
+  thrown in /home/97/jrgalioto/public_html/CSIS3760/Unit5/includes/registration.inc.php on line 5
+[17-Feb-2019 16:18:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function create_form_field() in /home/97/jrgalioto/public_html/CSIS3760/Unit5/includes/registration.inc.php:5
+Stack trace:
+#0 /home/97/jrgalioto/public_html/CSIS3760/Unit5/registration.php(11): require()
+#1 /home/97/jrgalioto/public_html/CSIS3760/Unit5/display_php_errors.php(4): include('/home/97/jrgali...')
+#2 {main}
+  thrown in /home/97/jrgalioto/public_html/CSIS3760/Unit5/includes/registration.inc.php on line 5
+[17-Feb-2019 16:20:08 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/97/jrgalioto/public_html/CSIS3760/Unit5/includes/registration.inc.php on line 80
+[17-Feb-2019 16:26:18 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/97/jrgalioto/public_html/CSIS3760/Unit5/includes/registration.inc.php on line 75

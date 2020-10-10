@@ -1,0 +1,11 @@
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\Webroot\CSIS3726\labs\code\Ch10_HandsOn_Inheritance_Work\Lab_09\Lab_09\bin\Debug\Ch12SBS3.exe.config
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\Webroot\CSIS3726\labs\code\Ch10_HandsOn_Inheritance_Work\Lab_09\Lab_09\obj\Debug\Ch12SBS3.exe
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\Webroot\CSIS3726\labs\code\Ch10_HandsOn_Inheritance_Work\Lab_09\Lab_09\obj\Debug\Ch12SBS3.xml
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\Webroot\CSIS3726\labs\code\Ch10_HandsOn_Inheritance_Work\Lab_09\Lab_09\obj\Debug\Ch12SBS3.pdb
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\Webroot\CSIS3726\labs\code\Ch10_HandsOn_Inheritance_Work\Lab_09\Lab_09\obj\Debug\Ch12SBS3.SalesForm.resources
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\Webroot\CSIS3726\labs\code\Ch10_HandsOn_Inheritance_Work\Lab_09\Lab_09\obj\Debug\Ch12SBS3.Resources.resources
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\Webroot\CSIS3726\labs\code\Ch10_HandsOn_Inheritance_Work\Lab_09\Lab_09\obj\Debug\Ch12SBS3.SummaryForm.resources
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\Webroot\CSIS3726\labs\code\Ch10_HandsOn_Inheritance_Work\Lab_09\Lab_09\obj\Debug\Lab_09.vbproj.GenerateResource.Cache
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\Webroot\CSIS3726\labs\code\Ch10_HandsOn_Inheritance_Work\Lab_09\Lab_09\bin\Debug\Ch12SBS3.exe
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\Webroot\CSIS3726\labs\code\Ch10_HandsOn_Inheritance_Work\Lab_09\Lab_09\bin\Debug\Ch12SBS3.pdb
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\Webroot\CSIS3726\labs\code\Ch10_HandsOn_Inheritance_Work\Lab_09\Lab_09\bin\Debug\Ch12SBS3.xml

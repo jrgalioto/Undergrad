@@ -1,0 +1,40 @@
+C:\Users\anthony.Office\OneDrive\YSU\2014\Fall\Deitel Book\Code\ch08\fig08_14\Lab_07\Lab_07\obj\x86\Debug\CreditInquiry.exe
+C:\Users\anthony.Office\OneDrive\YSU\2014\Fall\Deitel Book\Code\ch08\fig08_14\Lab_07\Lab_07\obj\x86\Debug\CreditInquiry.xml
+C:\Users\anthony.Office\OneDrive\YSU\2014\Fall\Deitel Book\Code\ch08\fig08_14\Lab_07\Lab_07\obj\x86\Debug\CreditInquiry.pdb
+C:\Users\anthony.Office\OneDrive\YSU\2014\Fall\Deitel Book\Code\ch08\fig08_14\Lab_07_Work\Lab_07\obj\x86\Debug\CreditInquiry.exe
+C:\Users\anthony.Office\OneDrive\YSU\2014\Fall\Deitel Book\Code\ch08\fig08_14\Lab_07_Work\Lab_07\obj\x86\Debug\CreditInquiry.xml
+C:\Users\anthony.Office\OneDrive\YSU\2014\Fall\Deitel Book\Code\ch08\fig08_14\Lab_07_Work\Lab_07\obj\x86\Debug\CreditInquiry.pdb
+C:\Users\anthony.Office\Downloads\Lab_07_Work\Lab_07_Work\Lab_07\obj\x86\Debug\CreditInquiry.exe
+C:\Users\anthony.Office\Downloads\Lab_07_Work\Lab_07_Work\Lab_07\obj\x86\Debug\CreditInquiry.xml
+C:\Users\anthony.Office\Downloads\Lab_07_Work\Lab_07_Work\Lab_07\obj\x86\Debug\CreditInquiry.pdb
+C:\Users\anthony.Office\Downloads\Lab_07_Work\Lab_07_Work\Lab_07\bin\Debug\CreditInquiry.exe
+C:\Users\anthony.Office\Downloads\Lab_07_Work\Lab_07_Work\Lab_07\bin\Debug\CreditInquiry.pdb
+C:\Users\anthony.Office\Downloads\Lab_07_Work\Lab_07_Work\Lab_07\bin\Debug\CreditInquiry.xml
+C:\Users\anthony.Office\Downloads\Lab_07_Work\Lab_07_Work\Lab_07\obj\x86\Debug\CreditInquiry.CreditInquiry.resources
+C:\Users\anthony.Office\Downloads\Lab_07_Work\Lab_07_Work\Lab_07\obj\x86\Debug\CreditInquiry.Resources.resources
+C:\Users\anthony.Office\Downloads\Lab_07_Work\Lab_07_Work\Lab_07\obj\x86\Debug\Lab_07.vbproj.GenerateResource.Cache
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\Webroot\CSIS3726\labs\code\Lab_07_Work\Lab_07\obj\x86\Debug\CreditInquiry.exe
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\Webroot\CSIS3726\labs\code\Lab_07_Work\Lab_07\obj\x86\Debug\CreditInquiry.xml
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\Webroot\CSIS3726\labs\code\Lab_07_Work\Lab_07\obj\x86\Debug\CreditInquiry.pdb
+C:\Users\anthony\Downloads\Lab_06_Work\Lab_07\bin\Debug\CreditInquiry.exe
+C:\Users\anthony\Downloads\Lab_06_Work\Lab_07\bin\Debug\CreditInquiry.pdb
+C:\Users\anthony\Downloads\Lab_06_Work\Lab_07\bin\Debug\CreditInquiry.xml
+C:\Users\anthony\Downloads\Lab_06_Work\Lab_07\obj\x86\Debug\Lab_07.vbprojAssemblyReference.cache
+C:\Users\anthony\Downloads\Lab_06_Work\Lab_07\obj\x86\Debug\CreditInquiry.CreditInquiry.resources
+C:\Users\anthony\Downloads\Lab_06_Work\Lab_07\obj\x86\Debug\CreditInquiry.Resources.resources
+C:\Users\anthony\Downloads\Lab_06_Work\Lab_07\obj\x86\Debug\Lab_07.vbproj.GenerateResource.cache
+C:\Users\anthony\Downloads\Lab_06_Work\Lab_07\obj\x86\Debug\Lab_07.vbproj.CoreCompileInputs.cache
+C:\Users\anthony\Downloads\Lab_06_Work\Lab_07\obj\x86\Debug\CreditInquiry.exe
+C:\Users\anthony\Downloads\Lab_06_Work\Lab_07\obj\x86\Debug\CreditInquiry.xml
+C:\Users\anthony\Downloads\Lab_06_Work\Lab_07\obj\x86\Debug\CreditInquiry.pdb
+C:\Users\Jim\source\repos\Lab_07_Work\Lab_07\bin\Debug\CreditInquiry.exe
+C:\Users\Jim\source\repos\Lab_07_Work\Lab_07\bin\Debug\CreditInquiry.pdb
+C:\Users\Jim\source\repos\Lab_07_Work\Lab_07\bin\Debug\CreditInquiry.xml
+C:\Users\Jim\source\repos\Lab_07_Work\Lab_07\obj\x86\Debug\Lab_07.vbprojAssemblyReference.cache
+C:\Users\Jim\source\repos\Lab_07_Work\Lab_07\obj\x86\Debug\CreditInquiry.CreditInquiry.resources
+C:\Users\Jim\source\repos\Lab_07_Work\Lab_07\obj\x86\Debug\CreditInquiry.Resources.resources
+C:\Users\Jim\source\repos\Lab_07_Work\Lab_07\obj\x86\Debug\Lab_07.vbproj.GenerateResource.cache
+C:\Users\Jim\source\repos\Lab_07_Work\Lab_07\obj\x86\Debug\Lab_07.vbproj.CoreCompileInputs.cache
+C:\Users\Jim\source\repos\Lab_07_Work\Lab_07\obj\x86\Debug\CreditInquiry.exe
+C:\Users\Jim\source\repos\Lab_07_Work\Lab_07\obj\x86\Debug\CreditInquiry.xml
+C:\Users\Jim\source\repos\Lab_07_Work\Lab_07\obj\x86\Debug\CreditInquiry.pdb

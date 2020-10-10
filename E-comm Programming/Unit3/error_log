@@ -1,0 +1,35 @@
+[03-Feb-2019 16:02:27 UTC] PHP Notice:  Undefined variable: first_name in /home/97/jrgalioto/public_html/CSIS3760/Unit3/registration_handle.inc.php on line 12
+[03-Feb-2019 16:31:52 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting end of file in /home/97/jrgalioto/public_html/CSIS3760/Unit3/registration_handle.inc.php on line 106
+[03-Feb-2019 16:32:39 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting end of file in /home/97/jrgalioto/public_html/CSIS3760/Unit3/registration_handle.inc.php on line 106
+[03-Feb-2019 16:33:53 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting end of file in /home/97/jrgalioto/public_html/CSIS3760/Unit3/registration_handle.inc.php on line 106
+[03-Feb-2019 16:33:58 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting end of file in /home/97/jrgalioto/public_html/CSIS3760/Unit3/registration_handle.inc.php on line 106
+[03-Feb-2019 16:36:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function addbackslashes() in /home/97/jrgalioto/public_html/CSIS3760/Unit3/registration_handle.inc.php:105
+Stack trace:
+#0 /home/97/jrgalioto/public_html/CSIS3760/Unit3/registration_handle.inc.php(20): add_slashes('O'neil')
+#1 /home/97/jrgalioto/public_html/CSIS3760/Unit3/display_php_errors.php(4): include('/home/97/jrgali...')
+#2 {main}
+  thrown in /home/97/jrgalioto/public_html/CSIS3760/Unit3/registration_handle.inc.php on line 105
+[03-Feb-2019 16:38:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function addbackslashes() in /home/97/jrgalioto/public_html/CSIS3760/Unit3/registration_handle.inc.php:107
+Stack trace:
+#0 /home/97/jrgalioto/public_html/CSIS3760/Unit3/registration_handle.inc.php(20): add_slashes('O'neil')
+#1 /home/97/jrgalioto/public_html/CSIS3760/Unit3/display_php_errors.php(4): include('/home/97/jrgali...')
+#2 {main}
+  thrown in /home/97/jrgalioto/public_html/CSIS3760/Unit3/registration_handle.inc.php on line 107
+[03-Feb-2019 16:38:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function addbackslashes() in /home/97/jrgalioto/public_html/CSIS3760/Unit3/registration_handle.inc.php:107
+Stack trace:
+#0 /home/97/jrgalioto/public_html/CSIS3760/Unit3/registration_handle.inc.php(20): add_slashes('O'neil')
+#1 /home/97/jrgalioto/public_html/CSIS3760/Unit3/display_php_errors.php(4): include('/home/97/jrgali...')
+#2 {main}
+  thrown in /home/97/jrgalioto/public_html/CSIS3760/Unit3/registration_handle.inc.php on line 107
+[03-Feb-2019 16:39:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function addbackslashes() in /home/97/jrgalioto/public_html/CSIS3760/Unit3/registration_handle.inc.php:107
+Stack trace:
+#0 /home/97/jrgalioto/public_html/CSIS3760/Unit3/registration_handle.inc.php(20): add_slashes('O'neil')
+#1 /home/97/jrgalioto/public_html/CSIS3760/Unit3/display_php_errors.php(4): include('/home/97/jrgali...')
+#2 {main}
+  thrown in /home/97/jrgalioto/public_html/CSIS3760/Unit3/registration_handle.inc.php on line 107
+[03-Feb-2019 16:39:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function addbackslashes() in /home/97/jrgalioto/public_html/CSIS3760/Unit3/registration_handle.inc.php:107
+Stack trace:
+#0 /home/97/jrgalioto/public_html/CSIS3760/Unit3/registration_handle.inc.php(20): add_slashes('O'neil')
+#1 /home/97/jrgalioto/public_html/CSIS3760/Unit3/display_php_errors.php(4): include('/home/97/jrgali...')
+#2 {main}
+  thrown in /home/97/jrgalioto/public_html/CSIS3760/Unit3/registration_handle.inc.php on line 107

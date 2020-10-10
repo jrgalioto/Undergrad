@@ -1,0 +1,15 @@
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\Webroot\CSIS3726\handson\code\Ch10_HandsOn_Inheritance_Work_Solution\BookSaleExample\bin\Debug\Ch12SBS3.exe.config
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\Webroot\CSIS3726\handson\code\Ch10_HandsOn_Inheritance_Work_Solution\BookSaleExample\bin\Debug\Ch12SBS3.exe
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\Webroot\CSIS3726\handson\code\Ch10_HandsOn_Inheritance_Work_Solution\BookSaleExample\bin\Debug\Ch12SBS3.pdb
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\Webroot\CSIS3726\handson\code\Ch10_HandsOn_Inheritance_Work_Solution\BookSaleExample\bin\Debug\Ch12SBS3.xml
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\Webroot\CSIS3726\handson\code\Ch10_HandsOn_Inheritance_Work_Solution\BookSaleExample\obj\Debug\Ch12SBS3.SalesForm.resources
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\Webroot\CSIS3726\handson\code\Ch10_HandsOn_Inheritance_Work_Solution\BookSaleExample\obj\Debug\Ch12SBS3.Resources.resources
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\Webroot\CSIS3726\handson\code\Ch10_HandsOn_Inheritance_Work_Solution\BookSaleExample\obj\Debug\Ch12SBS3.SummaryForm.resources
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\Webroot\CSIS3726\handson\code\Ch10_HandsOn_Inheritance_Work_Solution\BookSaleExample\obj\Debug\BookSaleExample.vbproj.GenerateResource.Cache
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\Webroot\CSIS3726\handson\code\Ch10_HandsOn_Inheritance_Work_Solution\BookSaleExample\obj\Debug\Ch12SBS3.exe
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\Webroot\CSIS3726\handson\code\Ch10_HandsOn_Inheritance_Work_Solution\BookSaleExample\obj\Debug\Ch12SBS3.xml
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\Webroot\CSIS3726\handson\code\Ch10_HandsOn_Inheritance_Work_Solution\BookSaleExample\obj\Debug\Ch12SBS3.pdb
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\Webroot\CSIS3726\handson\code\Ch10_HandsOn_Inheritance_Work\BookSaleExample\bin\Debug\Ch12SBS3.exe.config
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\Webroot\CSIS3726\handson\code\Ch10_HandsOn_Inheritance_Work\BookSaleExample\obj\Debug\Ch12SBS3.exe
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\Webroot\CSIS3726\handson\code\Ch10_HandsOn_Inheritance_Work\BookSaleExample\obj\Debug\Ch12SBS3.xml
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\Webroot\CSIS3726\handson\code\Ch10_HandsOn_Inheritance_Work\BookSaleExample\obj\Debug\Ch12SBS3.pdb

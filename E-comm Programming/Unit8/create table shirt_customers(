@@ -1,0 +1,299 @@
+create table shirt_customers(
+	shirt_customers_id MEDIUMINT UNSIGNED NOT NULL AUTO_INCREMENT,
+	first_name VARCHAR(30) NOT NULL, 
+	last_name VARCHAR(30) NOT NULL, 
+	email VARCHAR(40) NOT NULL, 
+	phone VARCHAR(20) NOT NULL, 
+	user_id VARCHAR(20) NOT NULL, 
+	password CHAR(255) NOT NULL, 
+	address_1 VARCHAR(100) NOT NULL, 
+	address_2 VARCHAR(100) NOT NULL, 
+	city VARCHAR(50) NOT NULL, 
+	shirt_states_id TINYINT UNSIGNED NOT NULL, 
+	zip CHAR(5) NOT NULL, 
+	date_created TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+	PRIMARY KEY(shirt_customers_id)
+) ENGINE = InnoDB;
+
+
+create table shirt_orders(
+	shirt_orders_id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	shirt_customers_id MEDIUMINT UNSIGNED NOT NULL,
+	shirt_transactions_id INT UNSIGNED NOT NULL,
+	shirt_shipping_address_id INT UNSIGNED NOT NULL,
+	shirt_carriers_methods_id TINYINT UNSIGNED NOT NULL,
+	shirt_billing_address_id INT UNSIGNED NOT NULL,
+	credit_no CHAR(4) NOT NULL, 
+	credit_type VARCHAR(20) NOT NULL, 
+	order_total DECIMAL(7, 3) NOT NULL, 
+	shipping_fee DECIMAL(6, 3) NOT NULL, 
+	order_date TIMESTAMP NOT NULL, 
+	shipping_date TIMESTAMP NOT NULL, 
+	PRIMARY KEY(shirt_orders_id),
+	INDEX ind_shirt_customers_id (shirt_customers_id),
+	CONSTRAINT fk_shirt_customers_id FOREIGN KEY (shirt_customers_id) REFERENCES shirt_customers(shirt_customers_id)
+	ON DELETE CASCADE on UPDATE CASCADE
+) ENGINE = InnoDB;
+
+CREATE TABLE shirt_states (
+	shirt_states_id TINYINT UNSIGNED NOT NULL AUTO_INCREMENT,
+	state VARCHAR(30) NOT NULL,
+	abbr CHAR(2) NOT NULL,
+	PRIMARY KEY (shirt_states_id)
+) ENGINE = InnoDB;
+
+INSERT INTO shirt_states(state, abbr) VALUES
+	('Alabama', 'AL'),
+	('Alaska', 'AK'),
+	('Arizona', 'AZ'),
+	('Arkansas', 'AR'),
+	('California', 'CA'),
+	('Colorado', 'CO'),
+	('Connecticut', 'CT'),
+	('Delaware', 'DE'),
+	('District of Columbia', 'DC'),
+	('Florida', 'FL'),
+	('Georgia', 'GA'),
+	('Hawaii', 'HI'),
+	('Idaho', 'ID'),
+	('Illinois', 'IL'),
+	('Indiana', 'IN'),
+	('Iowa', 'IA'),
+	('Kansas', 'KS'),
+	('Kentucky', 'KY'),
+	('Louisiana', 'LA'),
+	('Maine', 'ME'),
+	('Maryland', 'MD'),
+	('Massachusetts', 'MA'),
+	('Michigan', 'MI'),
+	('Minnesota', 'MN'),
+	('Mississippi', 'MS'),
+	('Missouri', 'MO'),
+	('Montana', 'MT'),
+	('Nebraska', 'NE'),
+	('Nevada', 'NV'),
+	('New Hampshire', 'NH'),
+	('New Jersey', 'NJ'),
+	('New Mexico', 'NM'),
+	('New York', 'NY'),
+	('North Carolina', 'NC'),
+	('North Dakota', 'ND'),
+	('Ohio', 'OH'),
+	('Oklahoma', 'OK'),
+	('Oregon', 'OR'),
+	('Pennsylvania', 'PA'),
+	('Rhode Island', 'RI'),
+	('South Carolina', 'SC'),
+	('South Dakota', 'SD'),
+	('Tennessee', 'TN'),
+	('Texas', 'TX'),
+	('Utah', 'UT'),
+	('Vermont', 'VT'),
+	('Virginia', 'VA'),
+	('Washington', 'WA'),
+	('West Virginia', 'WV'),
+	('Wisconsin', 'WI'),
+	('Wyoming', 'WY');
+
+CREATE TABLE shirt_customers (
+	shirt_customers_id MEDIUMINT UNSIGNED NOT NULL AUTO_INCREMENT, 
+	first_name VARCHAR(30) NOT NULL,
+	last_name VARCHAR(30) NOT NULL,
+	email VARCHAR(40) NOT NULL,
+	phone VARCHAR(20) NOT NULL,
+	password CHAR(255) NOT NULL,
+	address_1 VARCHAR(100) NOT NULL,
+	address_2 VARCHAR(100) NOT NULL,
+	city VARCHAR(50) NOT NULL,
+	shirt_states_id TINYINT UNSIGNED NOT NULL,
+	zip CHAR(5) NOT NULL,
+	date_created TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+	PRIMARY KEY(shirt_customers_id),
+	INDEX ind_shirt_states_id (shirt_states_id),
+	CONSTRAINT fk_shirt_states_id FOREIGN KEY (shirt_states_id) REFERENCES shirt_states(shirt_states_id) ON DELETE CASCADE ON UPDATE CASCADE
+)ENGINE = InnoDB;
+
+create table shirt_transactions(
+	shirt_transactions_id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	amount_charged DECIMAL(6, 3) NOT NULL, 
+	type VARCHAR(100) NOT NULL, 
+	response_code VARCHAR(200) NOT NULL, 
+	response_reason VARCHAR(200) NOT NULL, 
+	response_text VARCHAR(400) NOT NULL, 
+	date_created TIMESTAMP NOT NULL, 
+	PRIMARY KEY(shirt_transactions_id)
+) ENGINE = InnoDB;
+
+create table shirt_shipping_addresses(
+	shirt_shipping_addresses_id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	address_1 VARCHAR(100) NOT NULL, 
+	address_2 VARCHAR(100) NOT NULL, 
+	city VARCHAR(50) NOT NULL, 
+	shirt_states_id TINYINT UNSIGNED NOT NULL, 
+	zip CHAR(5) NOT NULL, 
+	date_created TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+	PRIMARY KEY(shirt_shipping_addresses_id)
+) ENGINE = InnoDB;
+
+create table shirt_billing_addresses(
+	shirt_billing_addresses_id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	address_1 VARCHAR(100) NOT NULL, 
+	address_2 VARCHAR(100) NOT NULL, 
+	city VARCHAR(50) NOT NULL, 
+	shirt_states_id TINYINT UNSIGNED NOT NULL, 
+	zip CHAR(5) NOT NULL, 
+	date_created TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+	PRIMARY KEY(shirt_billing_addresses_id)
+) ENGINE = InnoDB;
+
+create table shirt_carriers_methods(
+	shirt_carriers_methods_id TINYINT UNSIGNED NOT NULL AUTO_INCREMENT,
+	carrier VARCHAR(50) NOT NULL, 
+	method VARCHAR(50) NOT NULL, 
+	fee DECIMAL(6, 3) NOT NULL,
+	PRIMARY KEY(shirt_carriers_methods_id)
+) ENGINE = InnoDB;
+
+INSERT INTO shirt_carriers_methods (carrier, method) VALUES 
+('UPS', 'Ground', '4.99'),
+('UPS', 'Express', '9.99'),
+('USPS', 'Standard', '3.99'),
+('USPS', 'Expedited', '6.99'),
+('FEDEX', 'Same Day', '49.99'),
+('FEDEX', 'One Day', '29.99'),
+('FEDEX', 'Three Days', '9.99');
+
+create table shirt_orders(
+	shirt_orders_id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	shirt_customers_id MEDIUMINT UNSIGNED NOT NULL,
+	shirt_transactions_id INT UNSIGNED NOT NULL,
+	shirt_shipping_addresses_id INT UNSIGNED NOT NULL,
+	shirt_carriers_methods_id TINYINT UNSIGNED NOT NULL,
+	shirt_billing_addresses_id INT UNSIGNED NOT NULL,
+	credit_no CHAR(4) NOT NULL, 
+	credit_type VARCHAR(20) NOT NULL, 
+	order_total DECIMAL(7, 3) NOT NULL, 
+	shipping_fee DECIMAL(6, 3) NOT NULL, 
+	order_date TIMESTAMP NOT NULL, 
+	shipping_date TIMESTAMP NOT NULL, 
+	PRIMARY KEY(shirt_orders_id),
+	INDEX ind_shirt_customers_id (shirt_customers_id),
+	CONSTRAINT fk_shirt_customers_id FOREIGN KEY (shirt_customers_id) REFERENCES shirt_customers(shirt_customers_id)
+	ON DELETE CASCADE on UPDATE CASCADE,
+	INDEX ind_shirt_transactions_id (shirt_transactions_id),
+	CONSTRAINT fk_shirt_transactions_id FOREIGN KEY (shirt_transactions_id) REFERENCES shirt_transactions(shirt_transactions_id)
+	ON DELETE CASCADE on UPDATE CASCADE,
+	INDEX ind_shirt_shipping_address_id (shirt_shipping_address_id),
+	CONSTRAINT fk_shirt_shipping_address_id FOREIGN KEY (shirt_shipping_address_id) REFERENCES shirt_shipping_address(shirt_shipping_address_id)
+	ON DELETE CASCADE on UPDATE CASCADE,
+	INDEX ind_shirt_carriers_methods_id (shirt_carriers_methods_id),
+	CONSTRAINT fk_shirt_carriers_methods_id FOREIGN KEY (shirt_carriers_methods_id) REFERENCES shirt_carriers_methods(shirt_carriers_methods_id)
+	ON DELETE CASCADE on UPDATE CASCADE,
+	INDEX ind_shirt_billing_addresses_id (shirt_billing_addresses_id),
+	CONSTRAINT fk_shirt_billing_addresses_id FOREIGN KEY (shirt_billing_addresses_id) REFERENCES shirt_billing_addresses(shirt_billing_addresses_id)
+	ON DELETE CASCADE on UPDATE CASCADE
+) ENGINE = InnoDB;
+
+create table shirt_categories(
+	shirt_categories_id SMALLINT UNSIGNED NOT NULL AUTO_INCREMENT,
+	category VARCHAR(100) NOT NULL,
+	description VARCHAR(1000),
+	PRIMARY KEY(shirt_categories_id)
+) ENGINE = InnoDB;
+
+create table shirt_sizes(
+	shirt_sizes_id TINYINT UNSIGNED NOT NULL AUTO_INCREMENT,
+	size VARCHAR(20) NOT NULL,
+	PRIMARY KEY(shirt_sizes_id)
+) ENGINE = InnoDB;
+
+INSERT INTO shirt_sizes (size) VALUES
+	('xxx-small'),
+	('xx-small'),
+	('x-small'),
+	('small'),
+	('medium'),
+	('large'),
+	('x-large'),
+	('xx-large'),
+	('xxx-large');
+	
+create table shirt_colors(
+	shirt_colors_id TINYINT UNSIGNED NOT NULL AUTO_INCREMENT,
+	keyword VARCHAR(20) NOT NULL,
+	code VARCHAR(20) NOT NULL,
+	PRIMARY KEY(shirt_colors_id)
+) ENGINE = InnoDB;
+
+INSERT INTO shirt_colors (keyword, code) VALUES
+	('black', '#000000'),
+	('white', '#ffffff'),
+	('blue', '#0000FF'),
+	('dark blue', '#0000A0'),
+	('light blue', '#ADD8E6'),
+	('red', '#FF0000'),
+	('cyan', '#00FFFF'),
+	('purple', '#800080'),
+	('yellow', '#FFFF00'),
+	('lime', '#00FF00'),
+	('magenta', '#FF00FF'),
+	('silver', '#C0C0C0'),
+	('gray', '#808080'),
+	('orange', '#FFA500'),
+	('brown', '#A52A2A'),
+	('maroon', '#800000'),
+	('green', '#008000'),
+	('olive', '#808000');
+
+create table shirts(
+	shirts_id MEDIUMINT UNSIGNED NOT NULL AUTO_INCREMENT,
+	shirt_categories_id SMALLINT UNSIGNED NOT NULL,
+	shirt_sizes_id TINYINT UNSIGNED NOT NULL,
+	shirt_colors_id TINYINT UNSIGNED NOT NULL,
+	price DECIMAL(6,3) NOT NULL,
+	photo VARCHAR(100),
+	stock_quantity MEDIUMINT UNSIGNED NOT NULL,
+	date_added TIMESTAMP CURRENT_TIMESTAMP,
+	PRIMARY KEY(shirts_id),
+	INDEX ind_shirt_categories_id (shirt_categories_id),
+	CONSTRAINT fk_shirt_categories_id FOREIGN KEY (shirt_categories_id) REFERENCES shirt_categories(shirt_categories_id)
+	ON DELETE CASCADE on UPDATE CASCADE,
+	INDEX fk_shirt_sizes_id (shirt_sizes_id),
+	CONSTRAINT fk_shirt_sizes_id FOREIGN KEY (shirt_sizes_id) REFERENCES shirt_sizes(shirt_sizes_id)
+	ON DELETE CASCADE on UPDATE CASCADE,
+	INDEX ind_shirt_colors_id (shirt_colors_id),
+	CONSTRAINT fk_shirt_colors_id FOREIGN KEY (shirt_colors_id) REFERENCES shirt_colors(shirt_colors_id)
+	ON DELETE CASCADE on UPDATE CASCADE
+) ENGINE = InnoDB;
+
+create table shirt_orders_shirts(
+	shirt_orders_shirts_id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
+	shirt_orders_id INT UNSIGNED NOT NULL,
+	shirts_id MEDIUMINT UNSIGNED NOT NULL,
+	quantity TINYINT UNSIGNED NOT NULL,
+	price DECIMAL(7,3) NOT NULL,
+	PRIMARY KEY(shirt_orders_shirts_id),
+	INDEX ind_shirt_orders_id (shirt_orders_id),
+	CONSTRAINT fk_shirt_orders_id FOREIGN KEY (shirt_orders_id) REFERENCES shirt_orders(shirt_orders_id)
+	ON DELETE CASCADE on UPDATE CASCADE,
+	INDEX ind_shirts_id (shirts_id),
+	CONSTRAINT fk_shirts_id FOREIGN KEY (shirts_id) REFERENCES shirts(shirts_id)
+	ON DELETE CASCADE on UPDATE CASCADE
+) ENGINE = InnoDB;
+
+
+create table shirt_carts(
+	shirt_carts_id MEDIUMINT UNSIGNED NOT NULL AUTO_INCREMENT,
+	shirt_customers_id MEDIUMINT UNSIGNED NOT NULL, 
+	shirts_id MEDIUMINT UNSIGNED NOT NULL, 
+	quantity TINYINT UNSIGNED NOT NULL, 
+	date_added TIMESTAMP NOT NULL, 
+	date_modified TIMESTAMP NOT NULL, 
+	PRIMARY KEY(shirt_carts_id),
+	INDEX ind_shirt_customers_id (shirt_customers_id),
+	CONSTRAINT fk_shirt_customers_id FOREIGN KEY (shirt_customers_id) REFERENCES shirt_customers(shirt_customers_id)
+	ON DELETE CASCADE on UPDATE CASCADE,
+	INDEX ind_shirts_id (shirts_id),
+	CONSTRAINT fk_shirts_id FOREIGN KEY (shirts_id) REFERENCES shirts(shirts_id)
+	ON DELETE CASCADE on UPDATE CASCADE
+) ENGINE = InnoDB;

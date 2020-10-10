@@ -1,0 +1,9 @@
+C:\Users\anthony.Office\OneDrive\YSU\2014\Fall\Deitel Book\Code\ch08\fig08_14\Ch08_HandsOn_StreamReader\Ch08_HandsOn_StreamReader\obj\x86\Debug\CreditInquiry.exe
+C:\Users\anthony.Office\OneDrive\YSU\2014\Fall\Deitel Book\Code\ch08\fig08_14\Ch08_HandsOn_StreamReader\Ch08_HandsOn_StreamReader\obj\x86\Debug\CreditInquiry.xml
+C:\Users\anthony.Office\OneDrive\YSU\2014\Fall\Deitel Book\Code\ch08\fig08_14\Ch08_HandsOn_StreamReader\Ch08_HandsOn_StreamReader\obj\x86\Debug\CreditInquiry.pdb
+C:\Users\anthony.Office\OneDrive\YSU\2014\Fall\Deitel Book\Code\ch08\fig08_14\Ch08_HandsOn_StreamReader\Ch08_HandsOn_StreamReader\bin\Debug\CreditInquiry.exe
+C:\Users\anthony.Office\OneDrive\YSU\2014\Fall\Deitel Book\Code\ch08\fig08_14\Ch08_HandsOn_StreamReader\Ch08_HandsOn_StreamReader\bin\Debug\CreditInquiry.pdb
+C:\Users\anthony.Office\OneDrive\YSU\2014\Fall\Deitel Book\Code\ch08\fig08_14\Ch08_HandsOn_StreamReader\Ch08_HandsOn_StreamReader\bin\Debug\CreditInquiry.xml
+C:\Users\anthony.Office\OneDrive\YSU\2014\Fall\Deitel Book\Code\ch08\fig08_14\Ch08_HandsOn_StreamReader\Ch08_HandsOn_StreamReader\obj\x86\Debug\CreditInquiry.CreditInquiry.resources
+C:\Users\anthony.Office\OneDrive\YSU\2014\Fall\Deitel Book\Code\ch08\fig08_14\Ch08_HandsOn_StreamReader\Ch08_HandsOn_StreamReader\obj\x86\Debug\CreditInquiry.Resources.resources
+C:\Users\anthony.Office\OneDrive\YSU\2014\Fall\Deitel Book\Code\ch08\fig08_14\Ch08_HandsOn_StreamReader\Ch08_HandsOn_StreamReader\obj\x86\Debug\Ch08_HandsOn_StreamReader.vbproj.GenerateResource.Cache

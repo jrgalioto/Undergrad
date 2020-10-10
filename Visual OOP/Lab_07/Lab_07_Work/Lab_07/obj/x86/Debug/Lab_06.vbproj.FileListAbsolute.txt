@@ -1,0 +1,10 @@
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\WebSite\2018_Fall\labs\code\Lab_07_Work\Lab_07_Work\Lab_06\bin\Debug\CreditInquiry.exe
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\WebSite\2018_Fall\labs\code\Lab_07_Work\Lab_07_Work\Lab_06\bin\Debug\CreditInquiry.pdb
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\WebSite\2018_Fall\labs\code\Lab_07_Work\Lab_07_Work\Lab_06\bin\Debug\CreditInquiry.xml
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\WebSite\2018_Fall\labs\code\Lab_07_Work\Lab_07_Work\Lab_06\obj\x86\Debug\CreditInquiry.CreditInquiry.resources
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\WebSite\2018_Fall\labs\code\Lab_07_Work\Lab_07_Work\Lab_06\obj\x86\Debug\CreditInquiry.Resources.resources
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\WebSite\2018_Fall\labs\code\Lab_07_Work\Lab_07_Work\Lab_06\obj\x86\Debug\Lab_06.vbproj.GenerateResource.Cache
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\WebSite\2018_Fall\labs\code\Lab_07_Work\Lab_07_Work\Lab_06\obj\x86\Debug\Lab_06.vbproj.CoreCompileInputs.cache
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\WebSite\2018_Fall\labs\code\Lab_07_Work\Lab_07_Work\Lab_06\obj\x86\Debug\CreditInquiry.exe
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\WebSite\2018_Fall\labs\code\Lab_07_Work\Lab_07_Work\Lab_06\obj\x86\Debug\CreditInquiry.xml
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\WebSite\2018_Fall\labs\code\Lab_07_Work\Lab_07_Work\Lab_06\obj\x86\Debug\CreditInquiry.pdb

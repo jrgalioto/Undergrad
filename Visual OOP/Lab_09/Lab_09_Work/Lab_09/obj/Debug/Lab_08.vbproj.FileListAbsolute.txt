@@ -1,0 +1,13 @@
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\WebSite\2018_Spring\CSIS3726\labs\code\Lab_09_Solution\Lab_09\Lab_08\bin\Debug\Lab_08.exe.config
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\WebSite\2018_Spring\CSIS3726\labs\code\Lab_09_Solution\Lab_09\Lab_08\bin\Debug\Lab_08.exe
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\WebSite\2018_Spring\CSIS3726\labs\code\Lab_09_Solution\Lab_09\Lab_08\bin\Debug\Lab_08.pdb
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\WebSite\2018_Spring\CSIS3726\labs\code\Lab_09_Solution\Lab_09\Lab_08\bin\Debug\Lab_08.xml
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\WebSite\2018_Spring\CSIS3726\labs\code\Lab_09_Solution\Lab_09\Lab_08\obj\Debug\Lab_08.vbprojResolveAssemblyReference.cache
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\WebSite\2018_Spring\CSIS3726\labs\code\Lab_09_Solution\Lab_09\Lab_08\obj\Debug\Lab_08.SalesForm.resources
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\WebSite\2018_Spring\CSIS3726\labs\code\Lab_09_Solution\Lab_09\Lab_08\obj\Debug\Lab_08.Resources.resources
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\WebSite\2018_Spring\CSIS3726\labs\code\Lab_09_Solution\Lab_09\Lab_08\obj\Debug\Lab_08.SummaryForm.resources
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\WebSite\2018_Spring\CSIS3726\labs\code\Lab_09_Solution\Lab_09\Lab_08\obj\Debug\Lab_08.vbproj.GenerateResource.Cache
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\WebSite\2018_Spring\CSIS3726\labs\code\Lab_09_Solution\Lab_09\Lab_08\obj\Debug\Lab_08.vbproj.CoreCompileInputs.cache
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\WebSite\2018_Spring\CSIS3726\labs\code\Lab_09_Solution\Lab_09\Lab_08\obj\Debug\Lab_08.exe
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\WebSite\2018_Spring\CSIS3726\labs\code\Lab_09_Solution\Lab_09\Lab_08\obj\Debug\Lab_08.xml
+C:\Users\anthony.Office\Documents\Personal\YSU\Teaching\WebSite\2018_Spring\CSIS3726\labs\code\Lab_09_Solution\Lab_09\Lab_08\obj\Debug\Lab_08.pdb
